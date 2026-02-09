@@ -1,0 +1,23 @@
+body {
+    background-color: #f4f4f4;
+}
+.color-box {
+    width: 120px;
+    height: 80px;
+    margin: 8px;
+    display: inline-block;
+}
+.color1 {
+    background-color: #ff5733;
+}
+.color2 {background-color: rgb(255, 217, 61);
+}
+.color3 {
+    background-color: mediumseagreen;
+}  
+.color4 {
+    background-color: hsl(210, 100%, 60%);
+}  
+.color5 {
+    background-color: rgba(40, 20, 90, 0.7);
+}  

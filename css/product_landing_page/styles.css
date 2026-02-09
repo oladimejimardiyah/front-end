@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  color: #333;
+  line-height: 1.6;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+#header-img {
+  width: 300px;
+}
+
+#nav-bar {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #f1c40f;
+}
+
+main {
+  margin-top: 130px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+#hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#hero h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+#email {
+  padding: 10px;
+  width: 250px;
+}
+
+#submit {
+  padding: 10px 20px;
+  background: #f1c40f;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: #e0b50d;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.icon {
+  font-size: 60px;
+  color: #f1c40f;
+  flex-shrink: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+}
+
+.desc h2 {
+  margin-bottom: 10px;
+}
+
+.desc p {
+  margin: 0;
+}
+
+#how-it-works {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+#video {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+}
+
+#pricing {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.price-card h2 {
+  background: #ddd;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.price-card p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.price-card ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.price-card li {
+  padding: 5px 0;
+}
+
+.price-card button {
+  background: #f1c40f;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.price-card button:hover {
+  background: #e0b50d;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: right;
+  padding: 20px;
+  background: #ddd;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 10px;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .icon {
+    margin-bottom: 10px;
+  }
+
+  #pricing {
+    flex-direction: column;
+    align-items: center;
+  }
+}

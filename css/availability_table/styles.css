@@ -1,0 +1,67 @@
+:root {
+  --color0: #e63946; 
+  --color1: #f4a261; 
+  --color2: #f1fa8c; 
+  --color3: #2a9d8f; 
+  --color4: #457b9d; 
+  --color5: #2d6a4f;
+  --solid-border: 2px solid #333;
+  --dashed-border: 2px dashed #333;
+}
+body {
+    background-color:azure;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.available-0 {
+  background-color: var(--color0);
+}
+.available-1 {
+  background-color: var(--color1);
+}
+.available-2 {
+  background-color: var(--color2);
+}
+.available-3 {
+  background-color: var(--color3);
+}
+.available-4 {
+  background-color: var(--color4);
+}
+.available-5 {
+  background-color: var(--color5);
+}
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+.half td {
+  border-bottom: var(--dashed-border);
+}
+#legend-gradient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  height: 20px;
+  width: 100%;
+  background-image: linear-gradient(
+    90deg,
+    var(--color0) 0% 17%,
+    var(--color1) 17% 34%,
+    var(--color2) 34% 50%,
+    var(--color3) 50% 67%,
+    var(--color4) 67% 83%,
+    var(--color5) 83% 100%);
+}
+#legend-line {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+#legend span {
+    display: inline-block;
+    width: 5rem;
+    height: 2rem;
+}

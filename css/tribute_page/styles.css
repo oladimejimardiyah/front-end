@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.6ba;
+  background-color: whitesmoke;
+}
+#img-div {
+  margin: 20px auto;
+  background-color:white;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+#img-caption {
+  margin-top: 10px;
+}
+ul {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+#tribute-link {
+  display: block;
+  margin-top: 20px;
+}
